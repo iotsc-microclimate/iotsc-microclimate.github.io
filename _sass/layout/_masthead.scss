@@ -83,25 +83,26 @@
 .masthead__logo-item {
   position: absolute;
   top: 50%;
-  right: 2.75rem;
+  right: 3rem;
   transform: translateY(-50%);
+  z-index: 30;
 
   img {
     display: block;
-    width: min(42vw, 320px);
+    width: 220px;
     height: auto;
-    max-height: 44px;
+    max-height: 30px;
     object-fit: contain;
   }
 }
 
 @include breakpoint(max-width $small) {
   .masthead__logo-item {
-    right: 2.5rem;
+    right: 2.75rem;
 
     img {
-      width: min(45vw, 210px);
-      max-height: 34px;
+      width: 140px;
+      max-height: 24px;
     }
   }
 }

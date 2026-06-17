@@ -204,7 +204,7 @@
 
   .visible-links {
     display: table;
-    padding-right: min(45vw, 360px);
+    padding-right: 260px;
 
     li {
       display: table-cell;
@@ -323,7 +323,7 @@
 @include breakpoint(max-width $small) {
   .greedy-nav {
     .visible-links {
-      padding-right: min(48vw, 245px);
+      padding-right: 170px;
     }
   }
 }

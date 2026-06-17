@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Urban Micrometeorological Intelligent Sensing Terminal"
+title                    : "Urban Microclimate Intelligent Sensing Terminal"
 title_separator          : "-"
-name                     : &name "Urban Micrometeorological Intelligent Sensing Terminal"
-description              : &description "Urban micrometeorological intelligent sensing terminal for block-scale monitoring"   # Update this with a general description of your site, this is the default if not overridden by a page
+name                     : &name "Urban Microclimate Intelligent Sensing Terminal"
+description              : &description "Urban microclimate intelligent sensing terminal for block-scale monitoring"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://iotsc-microclimate.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "iotsc-microclimate"
   pronouns         : # example: "she/her"  
-  bio              : "Urban micrometeorological intelligent sensing terminal"
+  bio              : "Urban microclimate intelligent sensing terminal"
   location         : 
   employer         : 
   uri              : # URL

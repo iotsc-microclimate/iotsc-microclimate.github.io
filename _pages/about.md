@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Urban Micrometeorological Intelligent Sensing Terminal"
+title: "Urban Microclimate Intelligent Sensing Terminal"
 author_profile: true
 redirect_from: 
   - /about/
@@ -13,13 +13,13 @@ redirect_from:
 
 本項目開發了一套面向城市街區尺度的城市微氣象智能感知終端，用於連續監測溫度、濕度、風速、風向、大氣壓強、太陽輻射和 GPS 位置信息等關鍵環境參數。終端結合邊端控制、4G 通信、MQTT 數據傳輸與太陽能供電設計，支援長期戶外部署與雲端平台接入。
 
-This project develops an urban micrometeorological intelligent sensing terminal for block-scale monitoring. It continuously measures key environmental parameters, including temperature, humidity, wind speed, wind direction, atmospheric pressure, solar radiation, and GPS location. The terminal integrates edge-side control, 4G communication, MQTT data transmission, and solar-powered operation, supporting long-term outdoor deployment and cloud-platform integration.
+This project develops an urban microclimate intelligent sensing terminal for block-scale monitoring. It continuously measures key environmental parameters, including temperature, humidity, wind speed, wind direction, atmospheric pressure, solar radiation, and GPS location. The terminal integrates edge-side control, 4G communication, MQTT data transmission, and solar-powered operation, supporting long-term outdoor deployment and cloud-platform integration.
 
 ## 應用場景 / Application Scenarios
 
 本終端可部署於建築密集區、校園、城市綠地、水體周邊、開闊廣場和道路空間，構建分佈式城市微氣象監測網絡，為「城市微氣候—電力—建築」交叉研究提供高時空分辨率數據支撐。
 
-The terminal can be deployed in high-density building areas, campuses, urban green spaces, waterfront areas, open plazas, and street spaces. Through distributed deployment, it supports the construction of an urban micrometeorological monitoring network and provides high-resolution data for interdisciplinary research on urban microclimate, power systems, and buildings.
+The terminal can be deployed in high-density building areas, campuses, urban green spaces, waterfront areas, open plazas, and street spaces. Through distributed deployment, it supports the construction of an urban microclimate monitoring network and provides high-resolution data for interdisciplinary research on urban microclimate, power systems, and buildings.
 
 ## 功能介紹 / Key Features
 
@@ -30,7 +30,7 @@ The terminal can be deployed in high-density building areas, campuses, urban gre
 - 太陽能供電與低功耗戶外運行
 - 可接入智慧城市治理平台，用於熱風險識別、建築能耗分析和電網負荷研究
 
-- Multi-parameter micrometeorological monitoring: temperature, humidity, wind speed, wind direction, atmospheric pressure, solar radiation, and GPS positioning
+- Multi-parameter microclimate monitoring: temperature, humidity, wind speed, wind direction, atmospheric pressure, solar radiation, and GPS positioning
 - 4G LTE and MQTT-based wireless data transmission
 - Edge-side data processing, terminal-status monitoring, and data upload scheduling
 - Offline caching and automatic retransmission to improve long-term data completeness
@@ -52,3 +52,9 @@ The terminal adopts an integrated sensing–control–communication–power–pl
 | 通信模組 / Communication Module | 通過 4G LTE 和 MQTT 協議將數據傳輸至雲端平台。 Transmits data to the cloud platform through 4G LTE and MQTT. |
 | 供電模組 / Power Module | 結合太陽能供電、MPPT 控制和電壓轉換，支援長期戶外運行。 Integrates solar power, MPPT control, and voltage conversion for long-term outdoor operation. |
 | 平台接口 / Platform Interface | 接入智慧城市治理平台，支援可視化、告警和跨領域數據分析。 Connects to the smart city governance platform for visualization, alerts, and cross-domain data analysis. |
+
+## 單位信息 / Affiliation
+
+智慧城市物聯網全國重點實驗室
+
+聯繫郵箱：iotsc_microclimate@163.com

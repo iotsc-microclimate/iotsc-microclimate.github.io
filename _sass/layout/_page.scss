@@ -50,27 +50,6 @@
   }
 }
 
-.page__top-logos {
-  margin-bottom: 1em;
-  text-align: center;
-
-  img {
-    width: min(100%, 360px);
-    height: auto;
-  }
-
-  @include breakpoint($small) {
-    float: right;
-    width: 42%;
-    margin: 0 0 1em 1.5em;
-    text-align: right;
-
-    img {
-      width: min(100%, 420px);
-    }
-  }
-}
-
 .page__lead {
   font-family: $global-font-family;
   font-size: $type-size-4;

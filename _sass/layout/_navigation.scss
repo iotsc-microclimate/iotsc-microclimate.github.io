@@ -204,6 +204,7 @@
 
   .visible-links {
     display: table;
+    padding-right: min(45vw, 360px);
 
     li {
       display: table-cell;
@@ -315,6 +316,14 @@
       &:last-child {
         border-bottom: none;
       }
+    }
+  }
+}
+
+@include breakpoint(max-width $small) {
+  .greedy-nav {
+    .visible-links {
+      padding-right: min(48vw, 245px);
     }
   }
 }

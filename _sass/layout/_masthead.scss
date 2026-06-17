@@ -79,3 +79,29 @@
   border-bottom: 2px solid var(--global-text-color);
   /* No need to repeat pointer-events and cursor here */
 }
+
+.masthead__logo-item {
+  position: absolute;
+  top: 50%;
+  right: 2.75rem;
+  transform: translateY(-50%);
+
+  img {
+    display: block;
+    width: min(42vw, 320px);
+    height: auto;
+    max-height: 44px;
+    object-fit: contain;
+  }
+}
+
+@include breakpoint(max-width $small) {
+  .masthead__logo-item {
+    right: 2.5rem;
+
+    img {
+      width: min(45vw, 210px);
+      max-height: 34px;
+    }
+  }
+}

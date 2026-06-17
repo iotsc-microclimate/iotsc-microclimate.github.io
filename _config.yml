@@ -24,13 +24,13 @@ repository               : "iotsc-microclimate/iotsc-microclimate.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Outdoor Urban Microclimate Sensing Device"
+  name             : "iotsc-microclimate"
   pronouns         : # example: "she/her"  
   bio              : "Intelligent sensing device for outdoor urban microclimate monitoring"
   location         : 
   employer         : 
   uri              : # URL
-  email            : 
+  email            : "iotsc_microclimate@163.com"
 
   # Academic websites
   academia         : # URL

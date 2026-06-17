@@ -16,6 +16,12 @@ redirect_from:
 
 This project develops an outdoor intelligent sensing device for block-scale urban microclimate monitoring. It continuously measures key environmental parameters, including temperature, humidity, wind speed, wind direction, atmospheric pressure, solar radiation, and GPS location. The device integrates edge-side control, 4G communication, MQTT data transmission, and solar-powered operation, supporting long-term outdoor deployment and cloud-platform integration.
 
+## 應用場景 / Application Scenarios
+
+本裝置可部署於建築密集區、校園、城市綠地、水體周邊、開闊廣場和道路空間，構建分佈式城市微氣候監測網絡，為「城市微氣候—電力—建築」交叉研究提供高時空分辨率數據支撐。
+
+The device can be deployed in high-density building areas, campuses, urban green spaces, waterfront areas, open plazas, and street spaces. Through distributed deployment, it supports the construction of an urban microclimate monitoring network and provides high-resolution data for interdisciplinary research on urban microclimate, power systems, and buildings.
+
 ## 功能介紹 / Key Features
 
 - 多要素微氣候監測：溫度、濕度、風速、風向、大氣壓強、太陽輻射與 GPS 定位
@@ -47,9 +53,3 @@ The device adopts an integrated sensing–control–communication–power–plat
 | 通信模組 / Communication Module | 通過 4G LTE 和 MQTT 協議將數據傳輸至雲端平台。 Transmits data to the cloud platform through 4G LTE and MQTT. |
 | 供電模組 / Power Module | 結合太陽能供電、MPPT 控制和電壓轉換，支援長期戶外運行。 Integrates solar power, MPPT control, and voltage conversion for long-term outdoor operation. |
 | 平台接口 / Platform Interface | 接入智慧城市治理平台，支援可視化、告警和跨領域數據分析。 Connects to the smart city governance platform for visualization, alerts, and cross-domain data analysis. |
-
-## 應用場景 / Application Scenarios
-
-本裝置可部署於建築密集區、校園、城市綠地、水體周邊、開闊廣場和道路空間，構建分佈式城市微氣候監測網絡，為「城市微氣候—電力—建築」交叉研究提供高時空分辨率數據支撐。
-
-The device can be deployed in high-density building areas, campuses, urban green spaces, waterfront areas, open plazas, and street spaces. Through distributed deployment, it supports the construction of an urban microclimate monitoring network and provides high-resolution data for interdisciplinary research on urban microclimate, power systems, and buildings.

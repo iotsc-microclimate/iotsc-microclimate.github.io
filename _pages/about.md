@@ -8,7 +8,6 @@ redirect_from:
 ---
 
 # 室外城市微氣候智能感知裝置
-# Outdoor Urban Microclimate Sensing Device
 
 ## 項目簡介 / Project Overview
 

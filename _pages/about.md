@@ -7,17 +7,17 @@ redirect_from:
   - /about.html
 ---
 
-# 室外城市微氣候智能感知裝置
+# 室外城市微氣候智能感知终端
 
 ## 項目簡介 / Project Overview
 
-本項目開發了一套面向城市街區尺度的室外城市微氣候智能感知裝置，用於連續監測溫度、濕度、風速、風向、大氣壓強、太陽輻射和 GPS 位置信息等關鍵環境參數。裝置結合邊端控制、4G 通信、MQTT 數據傳輸與太陽能供電設計，支援長期戶外部署與雲端平台接入。
+本項目開發了一套面向城市街區尺度的室外城市微氣候智能感知终端，用於連續監測溫度、濕度、風速、風向、大氣壓強、太陽輻射和 GPS 位置信息等關鍵環境參數。终端結合邊端控制、4G 通信、MQTT 數據傳輸與太陽能供電設計，支援長期戶外部署與雲端平台接入。
 
 This project develops an outdoor intelligent sensing device for block-scale urban microclimate monitoring. It continuously measures key environmental parameters, including temperature, humidity, wind speed, wind direction, atmospheric pressure, solar radiation, and GPS location. The device integrates edge-side control, 4G communication, MQTT data transmission, and solar-powered operation, supporting long-term outdoor deployment and cloud-platform integration.
 
 ## 應用場景 / Application Scenarios
 
-本裝置可部署於建築密集區、校園、城市綠地、水體周邊、開闊廣場和道路空間，構建分佈式城市微氣候監測網絡，為「城市微氣候—電力—建築」交叉研究提供高時空分辨率數據支撐。
+本终端可部署於建築密集區、校園、城市綠地、水體周邊、開闊廣場和道路空間，構建分佈式城市微氣候監測網絡，為「城市微氣候—電力—建築」交叉研究提供高時空分辨率數據支撐。
 
 The device can be deployed in high-density building areas, campuses, urban green spaces, waterfront areas, open plazas, and street spaces. Through distributed deployment, it supports the construction of an urban microclimate monitoring network and provides high-resolution data for interdisciplinary research on urban microclimate, power systems, and buildings.
 
@@ -39,7 +39,7 @@ The device can be deployed in high-density building areas, campuses, urban green
 
 ## 結構介紹 / System Structure
 
-本裝置採用「感知—控制—通信—供電—平台」的一體化結構，主要由多功能氣象傳感器、太陽輻射傳感器、GPS 模組、ESP32 控制單元、4G 通信模組、MPPT 電源管理模組、電壓轉換模組和戶外安裝結構組成。其設計目標是實現從現場環境感知、邊端處理、無線傳輸到雲端分析的完整數據鏈路。
+本终端採用「感知—控制—通信—供電—平台」的一體化結構，主要由多功能氣象傳感器、太陽輻射傳感器、GPS 模組、ESP32 控制單元、4G 通信模組、MPPT 電源管理模組、電壓轉換模組和戶外安裝結構組成。其設計目標是實現從現場環境感知、邊端處理、無線傳輸到雲端分析的完整數據鏈路。
 
 The device adopts an integrated sensing–control–communication–power–platform structure. It mainly consists of multi-functional meteorological sensors, a solar radiation sensor, a GPS module, an ESP32 control unit, a 4G communication module, an MPPT power-management module, a voltage-conversion module, and an outdoor mounting structure. The design aims to build a complete data pipeline from on-site environmental sensing and edge-side processing to wireless transmission and cloud-based analysis.
 
